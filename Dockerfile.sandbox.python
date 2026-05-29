@@ -1,0 +1,6 @@
+FROM python:3.12-alpine
+RUN addgroup -S sandbox && adduser -S -G sandbox sandbox
+RUN mkdir /sandbox && chown sandbox:sandbox /sandbox
+WORKDIR /sandbox
+USER sandbox
+CMD ["sh"]

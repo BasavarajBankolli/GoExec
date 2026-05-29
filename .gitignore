@@ -1,0 +1,7 @@
+goexec
+*.exe
+vendor/
+go.sum
+.idea/
+.vscode/
+
