@@ -2,7 +2,7 @@
 
 A production-grade sandboxed code execution engine built in Go. Submissions run inside isolated Docker containers with configurable CPU, memory, and time limits. Results are delivered via REST polling or streamed in real time over WebSockets.
 
-> Built as a backend system similar to LeetCode / HackerRank judge infrastructure.
+> Built as a backend system similar to Codeforces / LeetCode  judge infrastructure.
 
 ---
 
